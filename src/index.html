@@ -1,65 +1,222 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="./node_modules/bootstrap/dist/css/bootstrap.min.css"
+    />
     <script src="./node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
     <title>Hello, world!</title>
   </head>
   <body>
     <div class="container-fluid">
-        <nav class="navbar navbar-light bg-light">
-            <div class="container">
-              <a class="navbar-brand" href="#">
-                <h1>Jevelin</h1>
-              </a>
+      <nav class="navbar navbar-light bg-light">
+        <div class="container">
+          <a class="navbar-brand" href="#">
+            <h1>Jevelin</h1>
+          </a>
+        </div>
+      </nav>
+      <hr />
+      <nav style="--bs-breadcrumb-divider: '>'" aria-label="breadcrumb">
+        <ol class="breadcrumb mx-5">
+          <li class="breadcrumb-item"><a href="#">Home</a></li>
+          <li class="breadcrumb-item"><a href="#">Shop</a></li>
+          <li class="breadcrumb-item active" aria-current="page">
+            Android Phones
+          </li>
+        </ol>
+      </nav>
+      <div class="row mx-5">
+        <div class="col-md-6">
+          <img src="./images/Theme Shop.png" class="img-fluid" alt="" />
+        </div>
+        <div class="col-md-6 mb-8">
+          <h1>Android Phone</h1>
+          <div class="row mt-4 mb-4">
+            <div class="col">
+              <h3>
+                <span style="color: lightgrey">$199</span> &nbsp;&nbsp;$179
+                <span style="margin-left: 30%">
+                  <i style="color: darkorange" class="fa fa-star"></i>
+                  <i class="fa fa-star" style="color: darkorange"></i>
+                  <i class="fa fa-star" style="color: darkorange"></i>
+                  <i class="fa fa-star" style="color: darkorange"></i>
+                  <i class="fa fa-star" style="color: darkorange"></i>
+                </span>
+                <span>(1 Review)</span>
+              </h3>
             </div>
-          </nav><hr>
-          <nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
-            <ol class="breadcrumb">
-              <li class="breadcrumb-item"><a href="#">Home</a></li>
-              <li class="breadcrumb-item"><a href="#">Shop</a></li>
-              <li class="breadcrumb-item active" aria-current="page">Android Phones</li>
-            </ol>
-          </nav>
-          <div class="row">
-            <div class="col-md-6"> <img src="/src/images/Theme Shop.png" alt=""> </div>
-            <div class="col-md-6">
-                <h1>Android Phone</h1>
-                <div class="row">
-                    <div class="col">
-                        <h3>$199 &nbsp;&nbsp;$179
-                            <i class="fa fa-star"></i>
-                      <i class="fa fa-star"></i>
-                      <i class="fa fa-star"></i>
-                      <i class="fa fa-star"></i>
-                      <i class="fa fa-star">(1 Review)</i>
-                        </h3>
-                      
-      
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae obcaecati repellendus quibusdam eaque aliquid et sunt natus? Illum voluptas dicta alias, sint necessitatibus similique officia quos animi saepe in eius?
-                    </div>
-                </div>
-                <div class="col">
-                    <button type="button" class="btn btn-primary btn-circle btn-xl">+</button>
-                    <button type="button" class="btn btn-primary btn-circle btn-xl">-</button>
-                </div>
-            </div> 
           </div>
-          
-          
-        
+          <div class="row mb-4">
+            <div class="col">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Recusandae obcaecati repellendus quibusdam eaque aliquid et sunt
+              natus? Illum voluptas dicta alias, sint necessitatibus similique
+              officia quos animi saepe in eius?
+            </div>
+          </div>
+          <div class="arrow">
+            <i class="fa fa-arrow-down">&nbsp;&nbsp;&nbsp;</i>
 
+            <span>1&nbsp;&nbsp;&nbsp;</span>
+            <i class="fa fa-arrow-up">&nbsp;&nbsp;&nbsp;</i>
+            <a
+              href="#"
+              class="btn btn-info btn-lg"
+              style="background-color: blue"
+            >
+              <span class="fa fa-shopping-cart" style="color: white"
+                ><b> Add to Cart </b>
+              </span>
+            </a>
+          </div>
+          <div class="row">
+            <span style="margin-top: 4%"><b>SKU: </b>12</span>
+          </div>
+          <div class="row">
+            <span><b>Category: </b> <a href="#">Phones</a> </span>
+          </div>
+          <div class="row">
+            <span><b>Tag: </b>Screen</span>
+          </div>
+          <div class="row mt-4 ms-3">
+            <i class="fa fa-share-alt"><b>&nbsp;&nbsp;Share</b></i>
+          </div>
+          <div class="row">
+            <div class="col md-2"></div>
+          </div>
+          <div class="row mt-4 mb-5 p-4">
+            <div class="col p-4">
+              <ul class="nav nav-tabs">
+                <li class="nav-item">
+                  <a class="nav-link" aria-current="page" href="#"
+                    >Description</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" href="#">Reviews</a>
+                </li>
+              </ul>
+              <span
+                >Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Doloremque atque sunt excepturi, cumque possimus minus ad
+                corrupti ducimus eos fugiat reprehenderit rerum dolores
+                obcaecati odit, tempora quo nihil quis exercitationem beatae
+                blanditiis veniam incidunt. Magnam qui fugit ipsa deleniti
+                nulla?</span
+              >
+            </div>
+          </div>
+        </div>
+        <hr />
+        <div class="row mx-5 pb-5 pt-5 mb-5">
+          <div class="col-md-4">
+            <div class="row">
+              <div class="col-md-2">
+                <i class="fa fa-shopping-cart pt-5 iconsize"></i>
+              </div>
 
+              <div class="col-md-8 pt-5">
+                <span>Free Shipping<br /></span>
+                for purchases over $50
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="row">
+              <div class="col-md-2">
+                <i class="fa fa-shield pt-5 iconsize"></i>
+              </div>
+
+              <div class="col-md-8 pt-5">
+                <span>Free Shipping<br /></span>
+                for purchases over $50
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="row">
+              <div class="col-md-2">
+                <i class="fa fa-bolt pt-5 iconsize"></i>
+              </div>
+
+              <div class="col-md-8 pt-5">
+                <span>Free Shipping<br /></span>
+                for purchases over $50
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <footer style="background-color: #231f20">
+          <div class="row mx-5" style="margin-top: 2%">
+            <div class="col my-3 pt-2">
+              <h1 style="color: white">Javelin</h1>
+            </div>
+            <div class="col" style="color: white">
+              <i href="&#xed46;"></i>
+              <i class="fa fa-instagram icons"></i>
+              <i class="fa fa-whatsapp icons"></i>
+              <i class="fa fa-twitter icons"></i>
+              <i class="fa fa-youtube icons"></i>
+            </div>
+          </div>
+          <hr class="mx-5" style="color: grey" />
+          <div class="row mx-5" style="margin-top: 5%; margin-bottom: 2%">
+            <div class="col">
+              <p style="font-size: large; color: white">
+                Start creating <br />
+                Epic
+                <span style="font-size: larger; color: white">Website</span>
+                <br />&nbsp; Today!
+              </p>
+              <button type="button" class="btn btn-primary">Primary</button>
+            </div>
+            <div class="col">
+              <h3 style="color: white">Useful</h3>
+              <span style="color: white"
+                >Documentation Intro videos <br />Lorem, ipsum.</span
+              >
+            </div>
+            <div class="col" style="font-size: 15px; color: white">
+              <h3>Keep In Touch</h3>
+              Lorem ipsum dolor sit amet.<br />
+              Lorem, ipsum dolor.<br />
+              Lorem, ipsum.
+            </div>
+            <div class="col">
+              <h3 style="color: white">Signup for newsletter</h3>
+              <input
+                type="search"
+                placeholder="Emai address"
+                style="background-color: #231f20"
+              /><button>Send</button><br />
+              <i class="mx-3" style="font-size: 12px; color: white"
+                >* Lorem ipsum dolor sit amet consectetur.</i
+              >
+            </div>
+          </div>
+          <div
+            class="row mx-5"
+            style="margin-top: 5%; color: white; margin-bottom: 5%"
+          >
+            <div class="col">&2022 Javelin copy right</div>
+            <div class="col">
+              <p class="mx-5" style="text-align: right; color: white">
+                Copy Right &nbsp;&nbsp;Term & Condition
+              </p>
+            </div>
+          </div>
+        </footer>
+      </div>
     </div>
-
-    
   </body>
 </html>
